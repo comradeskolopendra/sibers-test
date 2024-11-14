@@ -1,5 +1,9 @@
-.template {
-    color: black;
-    font-size: 32px;
-    text-align: center;
+.title {
+    margin: 0;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }

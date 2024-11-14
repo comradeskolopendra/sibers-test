@@ -55,6 +55,7 @@ export function buildLoaders(options: BuildOptions): ModuleOptions["rules"] {
         assetsLoader,
         fontsLoader,
         tsLoader,
+        globalCssLoader,
         scssLoader
     ]
 }

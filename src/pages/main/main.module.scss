@@ -1,0 +1,28 @@
+.main {
+    display: flex;
+}
+
+.aside {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 360px;
+    padding: 10px 15px 0;
+    box-sizing: border-box;
+    border-right: 1px solid rgba(128, 128, 128, 0.3);
+    height: 100vh;
+    max-height: 100vh;
+}
+
+.link {
+    display: flex;
+    align-self: flex-end;
+    text-decoration: none;
+    color: gray;
+    transition: color 0.3s ease-in-out;
+
+    &:hover {
+        transition: color 0.3s ease-in-out;
+        color: #3369F3;
+    }
+}
